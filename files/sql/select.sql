@@ -1,0 +1,1 @@
+SELECT pseudo FROM user WHERE id = 12;

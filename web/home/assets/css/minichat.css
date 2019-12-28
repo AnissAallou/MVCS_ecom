@@ -1,0 +1,35 @@
+form {
+    text-align:center;
+    }
+	
+header,body {
+background-color: rgb(224,224,224);
+}
+	
+.center h1 {
+	text-align: center;
+	color: cyan;
+	 border: 3px blue groove;
+	 width: 200px;
+	 background:red;
+
+
+}
+
+.btn_red:hover {
+	background-color: white;
+	color: red;
+    transition-duration: 1s;
+}
+
+.btn_green {
+	background-color: red;
+	color: yellow;
+	border: 2px solid blue;
+}
+
+.btn_green:hover {
+	background-color: yellow;
+	color: red;
+    transition-duration: 1s;
+}

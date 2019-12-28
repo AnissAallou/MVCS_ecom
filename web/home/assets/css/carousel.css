@@ -1,0 +1,122 @@
+
+
+#navbar {
+background: midnightblue;
+}
+
+#navbarbrand img {
+	 float:right;
+	 margin-top:-20px;
+	 height:50px;
+	 width:50px;
+}
+
+#navbarbrand2 img {
+	float:right;
+	margin-top:-20px;
+	height:50px;
+	width:50px;
+}
+
+
+#ex2 .center h1 {
+	width:300px;
+	height:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#ex2 p {
+	color:white;
+	text-align:center;
+}
+
+#tonDiv {
+	margin-top:-40px;
+}
+
+#tonDiv .nav {
+	width:350px;
+}
+
+#tonDiv .nav img {
+	float:right;
+	height:30px;
+	width:30px;
+}
+
+#tonDiv2 .nav {
+	width:350px;
+}
+
+#tonDiv2 .nav img {
+	margin-left:-13px;
+	float:right;
+	height:30px;
+	width:30px;
+}
+
+#tonDiv2 #navbis {
+	width:350px;
+}
+
+#tonDiv2 #navbis img {
+	margin-left:-40px;
+	float:right;
+	height:30px;
+	width:30px;
+}
+
+#container {
+height:100px;
+margin-left:300px;
+float:left;
+display: none;
+}
+
+
+
+#myCarousel .nav {
+	width:350px;
+}
+
+#myCarousel .nav img {
+	float: right;
+	height: 30px;
+	width: 30px;
+}
+
+#container2 {
+	height:100px;
+	margin-right:300px;
+	float:right;
+	display: none;
+}
+
+#myCarousel2 {
+	width:350px;
+	height:500px;
+	display:block;
+}
+
+#myCarousel2 .nav {
+	width:350px;
+}
+
+#myCarousel2 .nav img {
+	margin-left:-13px;
+	float:right;
+	height:30px;
+	width:30px;
+}
+
+#myCarousel2 #navbis {
+	width:350px;
+}
+
+#myCarousel2 #navbis img {
+	margin-left:-40px;
+	float:right;
+	height:30px;
+	width:30px;
+}

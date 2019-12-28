@@ -1,0 +1,36 @@
+#navNews li button h8 {
+	color: white;
+}
+
+#navMed li button h8 {
+	color: white;
+}
+
+#navbarNews {
+	background: mediumvioletred;
+}
+#navNews li button {
+		background: purple;
+		/* background: linear-gradient(to right, blue, mediumvioletred); */
+}
+
+#navbarMed {
+	background: orange;
+}
+
+#navMed li button {
+		background: goldenrod;
+		/* background: linear-gradient(to right, blue, goldenrod); */
+}
+
+#title {
+	float:right;
+	margin-right:15px;
+}
+
+a img {
+	height: 100px;
+	width: 100px;
+	float:right;
+	margin-right:35px;
+}

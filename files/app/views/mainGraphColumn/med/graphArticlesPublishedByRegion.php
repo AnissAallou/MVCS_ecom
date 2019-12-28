@@ -1,0 +1,13 @@
+<?php
+include('../../../../app/models/mainGraphNavModel.php');
+include('../../../../app/services/med/callApiArticlesPublishedByRegion.php');
+include('../../../../app/controllers/navController.php');
+include('../../../../app/controllers/med/publishedByRegion.php');
+include('../../mainHeaderMed.html');
+include('../../../../app/models/navMedGeneric.php');
+include('../../../../app/models/yearGeneric.php');
+include('../../mainGraphColumn.html');
+include('../../../../app/controllers/med/graphObjectsPublishedByRegion.php');
+include('../../../../app/models/graphObjects.php');
+include('../../mainFooter.html');
+?>

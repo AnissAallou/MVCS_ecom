@@ -1,0 +1,24 @@
+#tonDiv{
+	/* display:none; */
+}
+
+#tonDiv2{
+	display:none;
+	margin-top: 10px;
+}
+
+#bs-example-navbar-collapse-1 #nav ul li #Bouton {
+	/* background: linear-gradient(to right, mediumvioletred, blue 200px); */
+	background: purple;
+}
+
+#bs-example-navbar-collapse-1 #nav ul li #Bouton2 {
+	color:white;
+	background-color: linear-gradient(to right, goldenrod, blue 200px);
+
+	/* background-color: Lime; */
+}
+
+h8 {
+	margin-left:-70px;
+}

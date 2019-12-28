@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 23px) {
+#tonDiv .nav {
+	float: none!important;
+	margin: 7.5px -15px;
+	display:block;
+	display:flex;
+}
+
+#tonDiv .nav>li {
+		float:none;
+}
+
+#tonDiv .nav>li>a {
+	padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#tonDiv2 .nav {
+	float: none!important;
+	margin: 7.5px -15px;
+	display:block;
+	display:flex;
+}
+
+#tonDiv2 .nav>li {
+	float:none;
+}
+
+#tonDiv2 .nav>li>a {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+}

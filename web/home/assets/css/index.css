@@ -1,0 +1,170 @@
+button {
+ padding: 10px 20px; /* génère de l'espace autour du contenu d'un élément, à l'intérieur des limites définies */
+ text-decoration: none;
+ font-weight: bold; /* Le texte est en gras */
+ border-radius: 10px 10px 10px 10px; /* définit des coins arrondis pour la bordure d'un élément */
+ cursor: pointer;
+}
+
+.btn_red {
+ background-color: red;
+ color: white;
+ border: 2px solid red;
+}
+
+.btn_red:hover {
+ background-color: white;
+ color: red;
+		transition-duration: 1s;
+}
+
+.btn_green {
+ background-color: red;
+ color: yellow;
+ border: 2px solid blue;
+}
+
+.btn_green:hover {
+ background-color: yellow;
+ color: red;
+		transition-duration: 1s; /* définit le nombre de secondes que doit durer l'animation */
+}
+
+.btn_blue {
+ background-color: blue;
+ color: yellow;
+ border: 2px solid blue;
+}
+
+.btn_blue:hover {
+ background-color: yellow;
+ color: blue;
+		transition-duration: 1s; /* définit le nombre de secondes que doit durer l'animation */
+}
+
+.div_center {
+ width: 100%;
+ text-align: center;
+}
+
+
+.center h1 {
+	text-align: center;
+	color: cyan;
+	 border: 3px blue groove;
+	 width: 200px;
+	 background:red;
+	 margin-left: 750px;
+ }
+
+ button {
+ 	padding: 10px 20px; /* génère de l'espace autour du contenu d'un élément, à l'intérieur des limites définies */
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	border-radius: 10px 10px 10px 10px;
+ 	cursor: pointer; 	/* Le pointeur utilisé au-dessus des liens avec la forme d'une main */
+ }
+
+ .btn_red {
+ 	background-color: red;
+ 	color: white;
+ 	border: 2px solid red;
+ }
+
+ .btn_red:hover {
+ 	background-color: white;
+ 	color: red;
+     transition-duration: 1s;
+ }
+
+ .btn_green {
+ 	background-color: red;
+ 	color: yellow;
+ 	border: 2px solid blue;
+ }
+
+ .btn_green:hover {
+ 	background-color: yellow;
+ 	color: red;
+     transition-duration: 1s; /* définit le nombre de secondes que doit durer l'animation */
+ }
+
+ .div_center {
+ 	width: 100%;
+ 	text-align: center;
+ }
+
+
+body {
+	color: white;
+	background-color: purple;
+}
+.center h1 {
+	text-align: center;
+	color: cyan;
+	 border: 3px blue groove;
+	 width: 200px;
+	 background:red;
+	 margin-left: 750px;
+
+
+}
+#ex2 .nav {
+	border: 1px solid #333;
+	border-top-color: #707070;
+	background: -moz-linear-gradient(bottom , #666666 0pt, #5E5E5E 50%, #707070 51%, #808080 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(bottom , #666666 0pt, #5E5E5E 50%, #707070 51%, #808080 100%) repeat scroll 0 0 transparent;
+	background: -ms-linear-gradient(bottom , #666666 0pt, #5E5E5E 50%, #707070 51%, #808080 100%) repeat scroll 0 0 transparent;
+	background: -o-linear-gradient(bottom , #666666 0pt, #5E5E5E 50%, #707070 51%, #808080 100%) repeat scroll 0 0 transparent;
+	background: linear-gradient(bottom , #666666 0pt, #5E5E5E 50%, #707070 51%, #808080 100%) repeat scroll 0 0 transparent;
+	text-align: center;
+	height: 36px;
+	-webkit-box-shadow: 0 1px 3px #999;
+	-moz-box-shadow: 0 1px 3px #999;
+	box-shadow: 0 1px 3px #999;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	display:inline-block; /* La propriété display définit le type de boîte utilisée pour le rendu d'un élément */
+	/* L'élément génère une boîte pour un élément en bloc qui « s'écoule » dans le contenu environnant comme s'il était
+	/* une boîte en ligne (le comportement obtenu est similaire à celui d'un élément remplacé). */
+		}
+#ex2 .nav a {
+	height: 36px;
+	margin:0;
+	padding: 0 35px;
+	line-height: 36px;
+	border-left: auto solid #555;
+	border-right: auto solid #555;
+	text-decoration: none;
+	color: white;
+	text-shadow: -1px -1px 0 #444; /* ajoute des ombres au texte */
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 1em;
+    }
+#ex2 .nav :first-child a { /* cible un élément qui est le premier
+	élément fils par rapport à son élément parent. */
+	border-left: 0; /* Définit le style de la bordure gauche pour différents éléments */
+    }
+#ex2 .nav :last-child a { /* cible un élément qui est le dernier
+	enfant de son parent */
+	border-right: 0; /* propriété raccourcie qui permet de décrire la bordure droite d'un élément */
+    }
+#ex2 .nav a:hover, /* :hover permet de spécifier l'apparence d'un élément au moment où l'utilisateur le survole avec le pointeur,
+sans nécessairement l'activer */
+#ex2 .nav a:focus {	/* permet de cibler un élément lorsque celui-ci reçoit le focus
+ (soit il est sélectionné à l'aide du clavier, soit il est activé avec la souris comme par exemple le champ d'un formulaire) */
+	background: -moz-linear-gradient(bottom , #444444 0pt, #3E3E3E 50%, #505050 51%, #606060 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(bottom , #444444 0pt, #3E3E3E 50%, #505050 51%, #606060 100%) repeat scroll 0 0 transparent;
+	background: -ms-linear-gradient(bottom , #444444 0pt, #3E3E3E 50%, #505050 51%, #606060 100%) repeat scroll 0 0 transparent;
+	background: -o-linear-gradient(bottom , #444444 0pt, #3E3E3E 50%, #505050 51%, #606060 100%) repeat scroll 0 0 transparent;
+	background: linear-gradient(bottom , #444444 0pt, #3E3E3E 50%, #505050 51%, #606060 100%) repeat scroll 0 0 transparent;
+	text-shadow: -1px -1px 0 #000;
+}
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 30px;
+    margin: auto;
+}

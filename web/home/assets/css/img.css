@@ -1,0 +1,95 @@
+button h8 {
+	width: 30px;
+	height: 30px;
+	color: white;
+}
+
+h7 {
+	margin-left:-38px;
+}
+
+h8 {
+	margin-left:-98px;
+}
+
+#tonDiv .nav a img {
+	margin-right:10px;
+}
+
+#tonDiv2 .nav a img {
+	margin-right:10px;
+}
+
+
+#Bouton {
+	background: purple;
+}
+
+#Bouton img {
+	height:30px;
+	width:30px;
+	margin-left:10px;
+}
+
+#Bouton2 {
+	background: goldenrod;
+}
+
+#Bouton2 img {
+	height:30px;
+	width:30px;
+	margin-left:10px;
+}
+
+
+#ecn {
+	background: purple;
+	/* background: linear-gradient(to right, blue, mediumvioletred); */
+	/* display: none; */
+}
+
+#ecn img {
+	height:30px;
+	width:30px;
+	margin-left:10px;
+}
+
+#ecnmed {
+	/* background: linear-gradient(to right, blue, goldenrod); */
+background: goldenrod;
+/* display: none; */
+}
+
+#ecnmed img {
+	height:30px;
+	width:30px;
+	margin-left:10px;
+}
+
+#myCarousel {
+	width:350px;
+	height:500px;
+	display:block;
+}
+
+#myCarousel h8 {
+	margin-left:-20px;
+}
+
+#myCarousel img {
+	margin-left:-15px;
+}
+
+#myCarousel2 {
+	width:350px;
+	height:500px;
+	display:block;
+}
+
+#myCarousel2 h8 {
+	margin-left:-40px;
+}
+
+#myCarousel2 img {
+	margin-left:50px;
+}

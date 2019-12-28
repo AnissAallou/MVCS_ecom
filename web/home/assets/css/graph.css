@@ -1,0 +1,12 @@
+#sliders {
+	margin-left:470px;
+	margin-top:10px;
+}
+
+#alpha, #beta {
+	margin-left:5px;
+}
+
+#alpha-value, #beta-value, #depth-value {
+	margin-left:10px;
+}

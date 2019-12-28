@@ -1,0 +1,95 @@
+button {
+ padding: 10px 20px; /* génère de l'espace autour du contenu d'un élément, à l'intérieur des limites définies */
+ text-decoration: none;
+ font-weight: bold; /* Le texte est en gras */
+ border-radius: 10px 10px 10px 10px; /* définit des coins arrondis pour la bordure d'un élément */
+ cursor: pointer;
+}
+
+.btn_red {
+ background-color: red;
+ color: white;
+ border: 2px solid red;
+}
+
+.btn_red:hover {
+ background-color: white;
+ color: red;
+		transition-duration: 1s;
+}
+
+.btn_green {
+ background-color: red;
+ color: yellow;
+ border: 2px solid blue;
+}
+
+.btn_green:hover {
+ background-color: yellow;
+ color: red;
+		transition-duration: 1s; /* définit le nombre de secondes que doit durer l'animation */
+}
+
+.btn_blue {
+ background-color: blue;
+ color: yellow;
+ border: 2px solid blue;
+}
+
+.btn_blue:hover {
+ background-color: yellow;
+ color: blue;
+		transition-duration: 1s; /* définit le nombre de secondes que doit durer l'animation */
+}
+
+.div_center {
+ width: 100%;
+ text-align: center;
+}
+
+
+.center h1 {
+	text-align: center;
+	color: cyan;
+	 border: 3px blue groove;
+	 width: 200px;
+	 background:red;
+	 margin-left: 750px;
+ }
+
+ button {
+ 	padding: 10px 20px; /* génère de l'espace autour du contenu d'un élément, à l'intérieur des limites définies */
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	border-radius: 10px 10px 10px 10px;
+ 	cursor: pointer; 	/* Le pointeur utilisé au-dessus des liens avec la forme d'une main */
+ }
+
+ .btn_red {
+ 	background-color: red;
+ 	color: white;
+ 	border: 2px solid red;
+ }
+
+ .btn_red:hover {
+ 	background-color: white;
+ 	color: red;
+     transition-duration: 1s;
+ }
+
+ .btn_green {
+ 	background-color: red;
+ 	color: yellow;
+ 	border: 2px solid blue;
+ }
+
+ .btn_green:hover {
+ 	background-color: yellow;
+ 	color: red;
+     transition-duration: 1s; /* définit le nombre de secondes que doit durer l'animation */
+ }
+
+ .div_center {
+ 	width: 100%;
+ 	text-align: center;
+ }
